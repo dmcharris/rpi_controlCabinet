@@ -1,4 +1,4 @@
-MiniUSB = ocupado por módulo GSM 3G
+MiniUSB = ocupado por mÃ³dulo GSM 3G
 
 		3.3V	1	2 5V
 		GPIO2	3	4 5V
@@ -9,9 +9,9 @@ MiniUSB = ocupado por módulo GSM 3G
 		GPIO27	13	14 GND
 		GPIO22	15	16 GPIO23
 		3.3	17	18 GPIO24
-		GPIO10	19	20 GND
-		GPIO9	21	22 GPIO25
-		GPIO11	23	24 GPIO8
+nRF24 <----	GPIO10	19	20 GND
+nRF24 <----	GPIO9	21	22 GPIO25	----> nRF24
+nRF24 <----	GPIO11	23	24 GPIO8	----> nRF24
 		GND	25	26 GPIO7
 		ID_SD	27	28 ID_SC
 		GPIO5	29	30 GND
@@ -21,4 +21,4 @@ MiniUSB = ocupado por módulo GSM 3G
 		GPIO26	37	38 GPIO20
 		GND	39	40 GPIO21
 
-OJO: Para alimentación y GND deben diseñar su propia PCB de alimentación de las baterías. 
+OJO: Para alimentaciÃ³n y GND deben diseÃ±ar su propia PCB de alimentaciÃ³n de las baterÃ­as. 
