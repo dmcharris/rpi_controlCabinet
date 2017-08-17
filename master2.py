@@ -1,4 +1,4 @@
-mport spidev
+import spidev
 import time
 import os
 import RPi.GPIO as GPIO
